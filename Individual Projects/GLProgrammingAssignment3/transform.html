@@ -1,0 +1,35 @@
+<!Kirk McBrayer>
+<!cs435628>
+<html>
+<head>
+    <title> Transformation </title>
+
+<!script * Vertex Shader *
+In the code below, you declare uniform uTranslate and uScale variables.
+You also modify gl_Position statement to apply uTranslate and uScale to aPosition.
+>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+	attribute vec4 aPosition;
+    uniform vec4 uTranslate;
+    uniform mat4 uScale;
+        void main()
+        {
+		gl_Position = uScale * aPosition + uTranslate;
+        }
+    </script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+	precision mediump float;
+        void main()
+        {
+            gl_FragColor = vec4(1,0,0,1);
+        }
+    </script>
+
+    <script type="text/javascript" src="initShaders.js"></script>
+    <script type="text/javascript" src="drawTransform.js"></script>
+</head>
+
+<body> <canvas id="gl-canvas" width="512" height="512"> </canvas> </body>
+
+</html>
