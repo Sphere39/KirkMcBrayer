@@ -1,2 +1,2 @@
 # KirkMcBrayer
-A portfolio of my past projects 
+A portfolio of projects 
