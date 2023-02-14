@@ -1,3 +1,4 @@
+This project uses the p5.js library to create and place shapes to make art.
 # Welcome to p5.js
 
 You have downloaded the complete p5.js library ZIP file, yay!
