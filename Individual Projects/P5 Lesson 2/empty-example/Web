@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>HTML exercise</title>
+ </head>
+ <body>
+  <img src="http://www.csc.lsu.edu/~qyang/CS2610/LSU_logo.png" width="200" alt="LSU Logo">
+
+  <h1>About</h1>
+
+  <p>
+  Welcome to the <strong>Division of Computer Science and Engineering</strong> at LSU! The division resides in the newly formed School of Electrical Engineering and Computer Science (EECS) in the <em>College of Engineering</em>.
+  </p>
+
+  <h2>The location of our collaborators</h2>
+  <ul>
+   <li>USA
+     <ul>
+      <li><a href="http://meetup.com/girldevelopit">New York</a></li>
+      <li><a href="http://www.meetup.com/girldevelopitcbus">Columbus</a></li>
+      <li><a href="http://www.meetup.com/Girl-Develop-It-Austin">Austin</a></li>
+      <li><a href="http://www.meetup.com/Girl-Develop-It-Philadelphia/">Philly</a></li>
+     </ul>
+   </li>
+   <li>World
+     <ul>
+      <li><a href="http://www.meetup.com/Girl-Develop-It-Ottawa">Ottawa</a></li>
+      <li><a href="http://www.meetup.com/girldevelopit-sydney/">Sydney</a></li>
+     </ul>
+   </li>
+  </ul>
+
+  <br>
+  <br>
+  <a href="http://twitter.com/girldevelopit">Twitter</a> | <a href="http://www.facebook.com/girldevelopit">Facebook</a> | <a href="http://www.flickr.com/photos/40453677@N00/sets/72157626841092971/">Flickr</a>
+
+ </body>
+</html>

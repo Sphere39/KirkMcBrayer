@@ -1,0 +1,2 @@
+Place the single .java file in a IDE of your choice and run it.
+The project class name is TrapazoidalSimpsonRule
